@@ -1,0 +1,7 @@
+.left {
+	text-align: left;
+	border-left: 4px dashed blue;
+}
+.footer {
+	border-bottom: 2px dashed #000;
+}
