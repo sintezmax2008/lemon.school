@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 }
 
 .wrapper {
@@ -12,61 +11,57 @@ body {
 	padding: 0;
 	border-left: 2px dotted #000;
 	border-right: 2px dotted #000;
+	font-family: sans-serif;
 }
 
 .logo {
 	display: block;
 	width: 150px;
-	margin-left: 30px;
-	text-align: center;
+	margin: 0;
+	padding: 0 0 0 30px;
 	text-decoration: none;
+	font-size: 20px;
 }
 
-.logo span {
+span {
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+.header_nav {
+	display: block;
+	box-sizing: border-box;
+	border-top: 4px solid #000;
+	border-bottom: 4px solid #000;
+	margin-top: 40px;
+}
+
+.header_nav ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding-left: 30px;
+}
+
+.header_nav li {
 	display: inline-block;
-	text-transform: uppercase;
-	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header_nav a {
+	display: block;
+	text-decoration: none;
+	box-sizing: border-box;
 	color: #000;
 	font-size: 20px;
-}
-
-.logo:hover {
-	opacity: 0.5;
-}
-
-ul a {
-	list-style: none;
-}
-
-li {
-	display: inline-block;
-}
-
-.nav_header {
-	display: block;
-	padding-left: 30px;
-	margin-top: 40px;
-	border: 4px solid #000;
-	border-left: none;
-	border-right: none;
-}
-
-.nav_header a {
-	display: inline-block;
-	box-sizing: border-box;
-	text-decoration: none;
-	color:#000;
-	font-size: 20px;
-	margin: 0;
 	padding: 10px 20px;
 }
 
-.nav_header ul {
-	margin:0;
-	padding:0;
-}
-
-.nav_header a:hover {
+.header_nav a:hover {
 	background-color: #000;
 	color: #fff;
 }
@@ -74,13 +69,8 @@ li {
 .content {
 	display: block;
 	box-sizing: border-box;
-	margin: 0;
 	padding: 30px;
-	text-align: left;
-}
-
-.contentimg {
-	width: 100%;
+	margin: 0;
 }
 
 h1 {
@@ -96,34 +86,47 @@ p {
 }
 
 h1, h2, p {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 0;
+	padding-top: 10px;
 }
 
-.nav_footer {
+.main_img {
+	padding-top: 10px;
+	width: 100%;
+}
+
+.footer_nav {
+	list-style: none;
 	display: block;
 	box-sizing: border-box;
-	background-color: #000;
+	background: #000;
+	margin-top: 10px;
+	padding: 30px;
 	text-align: center;
-	border: 20px solid #000;
 	color: #fff;
 	font-size: 12px;
 }
 
-.nav_footer a {
-	display: inline-block;
+.footer_nav ul {
+	display: block;
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.footer_nav li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.footer_nav a {
 	color: #fff;
-	width: auto;
+	text-decoration: none;
+	font-size: 12px;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
 
-.nav_footer a:hover {
+.footer_nav a:hover {
 	border-bottom: 1px dashed #fff;
-}
-
-.nav_footer li {
-	padding: 10px;
 }
