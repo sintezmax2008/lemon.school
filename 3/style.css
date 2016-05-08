@@ -23,7 +23,11 @@ body {
 	font-size: 20px;
 }
 
-span {
+.logo:hover {
+     opacity: 0.8;
+}
+
+.logo span {
 	display: block;
 	text-align: center;
 	padding: 0;
