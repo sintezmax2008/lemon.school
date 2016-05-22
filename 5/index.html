@@ -1,52 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Задание 4. Фотошоп</title>
+	<title>Задание с фотошопом</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="main_box">
-		<div class="mb_h"></div>
-		<div class="mb_c">
-			<div class="main_content">
-				<div class="mc_header">
-					<div class="mc_header_foto">
-						<img class="main_foto" src="main_foto.jpg" alt="фото">
-					</div>
-					<div class="mc_header_foto_text">
-						<span class="up_text">Thomas<br>Whellshore</span>
-						<span class="down_text">Developer</span>
-					</div>
+	<div class="main__bg"><!-- блок фона страницы -->
+		<div class="main__bg__top"></div><!-- синий блок -->
+		<div class="main__bg__bottom"></div><!-- серый блок -->
+	</div>
+	<div class="inner"><!-- блок основного контента -->
+		<div class="inner__header"><!-- хеадер основного контента -->
+			<div class="inner__header__foto"><!-- блок фотографии хеадера основного контента -->
+				<img class="main__foto" src="main__foto.jpg" alt="Фото главного героя"><!-- блок фото главного героя :) -->
+			</div>
+			<div class="inner__header__text"><!-- блок текста хеадера основного контента -->
+				<div class="inner__header__text__1"><!-- Thomas Whellshore -->
+					<p>Thomas<br>Wellshore</p>
 				</div>
-				<div class="mc_header_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nisi cum explicabo soluta totam odit tempore qui reprehenderit dignissimos! Deserunt, cupiditate. Dolore eos autem at distinctio fugiat repellendus cum culpa quam magni vitae!</div>
-				<div class="team_text">Team</div>
-				<div class="foto_block">
-					<div class="foto_box">
-						<div class="foto">
-							<img src="md.jpg" alt="Matthew Dix">
-						</div>
-						<div class="name"><a href="#">Matthew Dix</a></div>
-						<div class="desc">Graphic Design</div>
-					</div>
-					<div class="foto_box">
-						<div class="foto">
-							<img src="cc.jpg" alt="Matthew Dix">
-						</div>
-						<div class="name">Christopher Campbell</div>
-						<div class="desc">Branding/UX design</div>
-					</div>
-					<div class="foto_box">
-						<div class="foto">
-							<img src="mf.jpg" alt="Matthew Dix">
-						</div>
-						<div class="name">Michael Fertig</div>
-						<div class="desc">Developer</div>
-					</div>
+				<div class="inner__header__text__2"><!-- Developer -->
+					<p>Developer</p>
 				</div>
 			</div>
 		</div>
-		<div class="mb_f"></div>
+		<div class="inner__text"><!-- текст основного контента -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi nihil vel, quos vero hic quam culpa minus quibusdam, excepturi expedita, blanditiis eaque dolor officia. Natus officiis magnam officia, error itaque quibusdam nemo molestias nulla ullam tempore a sint amet.</p>
+		</div>
+		<div class="inner__footer"><!-- футер основного контента -->
+			<div class="inner__footer__team">
+				<p>Team</p>
+			</div>
+			<div class="inner__footer__block"><!-- блок фото, имени и должности первого героя -->
+				<div class="foto"><!-- блок фотографии -->
+					<img src="m__d.jpg" alt="Matthew Dix">
+						<div class="overlap"><!-- блок наведения -->
+							<div class="foto__overlap__links"><!-- сылки социалок при наведении -->
+								<a href="#"><img src="f.png" alt="facebook"></a>
+								<a href="#"><img src="t.png" alt="twitter"></a>
+								<a href="#"><img src="p.png" alt="pinterest"></a>
+								<a href="#"><img src="i.png" alt="instagram"></a>
+							</div>
+						</div>
+				</div>
+				<div class="name"><!-- блок имени -->
+					<p>Matthew Dix</p>
+				</div>
+				<div class="job"><!-- блок должности -->
+					<p>Graphic Design</p>
+				</div>
+			</div>
+			<div class="inner__footer__block"><!-- блок фото, имени и должности второго героя -->
+				<div class="foto"><!-- блок фотографии -->
+					<img src="c__c.jpg" alt="Christopher Campbell">
+						<div class="overlap"><!-- блок наведения -->
+							<div class="foto__overlap__links"><!-- сылки социалок при наведении -->
+								<a href="#"><img src="f.png" alt="facebook"></a>
+								<a href="#"><img src="t.png" alt="twitter"></a>
+								<a href="#"><img src="p.png" alt="pinterest"></a>
+								<a href="#"><img src="i.png" alt="instagram"></a>
+							</div>
+						</div>
+				</div>
+				<div class="name"><!-- блок имени -->
+					<p>Christopher Campbell</p>
+				</div>
+				<div class="job"><!-- блок должности -->
+					<p>Branding/UX design</p>
+				</div>
+			</div>
+			<div class="inner__footer__block"><!-- блок фото, имени и должности третьего героя -->
+				<div class="foto"><!-- блок фотографии -->
+					<img src="m__f.jpg" alt="Michael Fertig">
+						<div class="overlap"><!-- блок наведения -->
+							<div class="foto__overlap__links"><!-- сылки социалок при наведении -->
+								<a href="#"><img src="f.png" alt="facebook"></a>
+								<a href="#"><img src="t.png" alt="twitter"></a>
+								<a href="#"><img src="p.png" alt="pinterest"></a>
+								<a href="#"><img src="i.png" alt="instagram"></a>
+							</div>
+						</div>
+				</div>
+				<div class="name"><!-- блок имени -->
+					<p>Michael Fertig</p>
+				</div>
+				<div class="job"><!-- блок должности -->
+					<p>Developer</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
