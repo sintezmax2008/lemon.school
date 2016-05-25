@@ -1,40 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300, 900);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900,400,700);
+
 * {
 	margin: 0;
 	padding: 0;
-	display: block;
 	box-sizing: border-box;
+	background-repeat: no-repeat;
 }
 
 .main__wrapper {
+	display: block;
 	width: 1600px;
-	height: 2800px;
+	margin: 0 auto;
 }
 
 .block__1 {
-	width: 1600px;
+	display: block;
 	height: 670px;
 	background-image: url(image/block__1__bg__overlay.jpg);
-	padding: 0 330px;
+	background-position: center;
+	position: relative;
+}
+
+.block__1__header {
+	display: block;
+}
+
+.block__1__header__logo {
+	display: inline-block;
+	margin-left: 330px;
+	padding-top: 20px;
+	float: left;
+}
+
+.block__1__header__nav {
+	display: inline-block;
+	margin-left: 250px;
+	margin-top: 35px;
+}
+
+.block__1 ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.block__1 a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.block__1 a:hover {
+	color: #00e0d0;
+}
+
+.block__1__content {
+	position: relative;
+}
+
+
+.block__1__content h1, p {
+	color: #fff;
+	text-align: center;
+}
+
+.block__1__content h1 {
+font-family: 'Playfair Display', serif;
+font-weight: 900;
+font-size: 32px;
+}
+
+.block__1__content h1::after {
+	display: block;
+	position:absolute;
+	content: "";
+	width: 50px;
+	border-bottom: 1px solid #00e0d0;
+	top: 70px;
+	left: 48%;
+}
+
+.block__1__content p {
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 14px;
+margin-top: 60px;
+line-height: 20px;
+}
+
+.block__1__content {
+	display: block;
+	width: 780px;
+	margin: 160px auto 0;
+}
+
+.block__1__footer {
+	display: block;
+	height: 40px;
+	width: 120px;
+	border: 1px solid #fff;
+	border-radius: 1px;
+	margin: 55px auto 0;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.block__1__footer:hover {
+	border: 1px solid #00e0d0;
+}
+
+.block__1__footer a {
+	padding: 10px;
 }
 
 .block__2 {
-	width: 1600px;
+	display: block;
 	height: 400px;
 }
 
 .block__3 {
-	width: 1600px;
+	display: block;
 	height: 550px;
 	background-image: url(image/block__3__bg__overlay.jpg);
+	background-position: center;
 }
 
 .block__4 {
-	width: 1600px;
+	display: block;
 	height: 780px;
 }
 
 .block__5 {
-	width: 1600px;
+	display: block;
 	height: 400px;
 	background-image: url(image/block__5__bg__overlay.jpg);
+	background-position: center;
 }
