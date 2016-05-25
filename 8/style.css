@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+}
+
+.main__wrapper {
+	width: 1600px;
+	height: 2800px;
+}
+
+.block__1 {
+	width: 1600px;
+	height: 670px;
+	background-image: url(image/block__1__bg__overlay.jpg);
+	padding: 0 330px;
+}
+
+.block__2 {
+	width: 1600px;
+	height: 400px;
+}
+
+.block__3 {
+	width: 1600px;
+	height: 550px;
+	background-image: url(image/block__3__bg__overlay.jpg);
+}
+
+.block__4 {
+	width: 1600px;
+	height: 780px;
+}
+
+.block__5 {
+	width: 1600px;
+	height: 400px;
+	background-image: url(image/block__5__bg__overlay.jpg);
+}
