@@ -10,7 +10,7 @@
 
 .main__wrapper {
 	display: block;
-	width: 1600px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -20,10 +20,7 @@
 	background-image: url(image/block__1__bg__overlay.jpg);
 	background-position: center;
 	position: relative;
-}
-
-.block__1__header {
-	display: block;
+	background-size: cover;
 }
 
 .block__1__header__logo {
@@ -31,6 +28,10 @@
 	margin-left: 330px;
 	padding-top: 20px;
 	float: left;
+}
+
+.block__1__header__logo:hover {
+	transform: scale(1.1,1.2);
 }
 
 .block__1__header__nav {
@@ -99,21 +100,16 @@ line-height: 20px;
 
 .block__1__footer {
 	display: block;
-	height: 40px;
 	width: 120px;
 	border: 1px solid #fff;
 	border-radius: 1px;
 	margin: 55px auto 0;
 	text-align: center;
-	padding-top: 8px;
+	padding: 10px;
 }
 
 .block__1__footer:hover {
 	border: 1px solid #00e0d0;
-}
-
-.block__1__footer a {
-	padding: 10px;
 }
 
 .block__2 {
@@ -121,11 +117,73 @@ line-height: 20px;
 	height: 400px;
 }
 
+.block__2__left {
+	display: inline-block;
+	margin-left: 375px;
+	margin-top: 75px;
+	float: left;
+}
+
+.block__2__right {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 65px;
+	width: 540px;	
+}
+
+.block__2__right__text {
+	display: block;
+}
+
+.block__2__right__text h1 {
+	color: #413d4b;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.block__2__right__text p {
+	color: #817f86;
+	text-align: left;
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.block__2__botton {
+	display: block;
+	width: 120px;
+	border: 1px solid #817f86;
+	border-radius: 1px;
+	margin-top: 30px;
+	margin-right: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+.block__2__botton:hover {
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+}
+
+.block__2__right a {
+	text-decoration: none;
+	color: #817f86;
+}
+
+.block__2__botton div {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+}
+
 .block__3 {
 	display: block;
 	height: 550px;
 	background-image: url(image/block__3__bg__overlay.jpg);
 	background-position: center;
+	background-size: cover;
 }
 
 .block__4 {
@@ -138,4 +196,5 @@ line-height: 20px;
 	height: 400px;
 	background-image: url(image/block__5__bg__overlay.jpg);
 	background-position: center;
+	background-size: cover;
 }
