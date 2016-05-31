@@ -1,0 +1,94 @@
+.big {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border: 5px solid #000;
+}
+
+.big:after {
+	display: inline-block;
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: 205px;
+	width: 10px;
+	height: 30px;
+	background-color: #000;
+}
+
+.red__color {
+	width: 20%;
+	height: 100%;
+	background-color: #f00;
+}
+
+.yellow__color {
+	width: 60%;
+	height: 100%;
+	background-color: #ff0;
+}
+
+.green__color {
+	width: 100%;
+	height: 100%;
+	background-color: #0f0;
+}
+
+.battery {
+	margin-top: 20px;
+}
+
+.cut__botton:before {
+	position: absolute;
+	top: 10px;
+	left: -10px;
+	content: "";
+	width: 10px;
+	height: 100px;
+	background-color: #0f0;
+}
+
+.cut__botton {
+	display: block;
+	position: relative;
+	width: 300px;
+	height: 120px;
+	background-color: #0f0;
+	margin-left: 20px;
+}
+
+.cut__botton p {
+	color: #fff;
+	line-height: 120px;
+	margin-left: 20px;
+}
+
+.cut__botton:after {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	content: "";
+	width: 10px;
+	height: 100px;
+	background-color: #0f0;
+}
+
+.girl__botton {
+	display: block;
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #f00;
+	border: 2px solid #f00;
+	text-align: center;
+	box-shadow: 0 0 1px 2px rgba(255,0,0,1);
+	box-shadow: 0 0 1px 2px rgba(255,255,255,1) inset;
+}
+
+.girl__botton p {
+	line-height: 50px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+}
