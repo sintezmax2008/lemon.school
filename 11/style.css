@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #555;
+	box-sizing: border-box;
+}
+
+.inner {
+	display: block;
+	width: 600px;
+	margin: 20px auto 0;
+}
+
+input {
+	display: inline-block;
+	outline: none;
+	height: 35px;
+	border: 1px solid #ccf;
+	padding-left: 10px;
+}
+
+input:focus {
+	box-shadow: 0 0 10px 1px rgba(0,0,255,0.2);
+	border: 1px solid #0ab;
+}
+
+span {
+	display: inline-block;
+	height: 35px;
+	background-color: #ccc;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #ccf;
+}
+
+.line_1, .line_2, .line_3, .line_4 {
+	margin-top: 10px;
+}
+
+.line_1 span {
+	width: 10%;
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+	float: left;
+}
+
+.line_1 input {
+	width: 90%;
+	border-radius: 0 4px 4px 0;
+}
+
+.line_2 input {
+	width: 80%;
+	border-radius: 4px 0 0 4px;
+	float: left;
+}
+
+.line_2 span {
+	width: 20%;
+	border-radius: 0 4px 4px 0;
+	border-left: none;
+}
+
+.s_1 {
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+	float: left;
+	width: 7%;
+}
+
+.line_3 input {
+	float: left;
+	width: 80%;
+}
+
+.s_2 {
+	border-radius: 0 4px 4px 0;
+	border-left: none;
+	width: 13%;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 900;
+	margin: 20px 0 10px 0;
+}
+
+.line_4 span {
+	width: 30%;
+	float: left;
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+}
+
+.line_4 input {
+	width: 70%;
+	border-radius: 0 4px 4px 0;
+}
+
+.sub {
+	width: 80px;
+	padding: 10px;
+	border-radius: 4px;
+	margin-top: 10px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.sub:hover {
+	background-color: #ccc;
+}
