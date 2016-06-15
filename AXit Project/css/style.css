@@ -14,13 +14,18 @@
 .inner {
 	width: 1100px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.inner::after {
+	content: '';
+	display:block;
+	clear:both;
 }
 
 .header {
 	background-image: url(../img/header_bg.jpg);
 	background-size: cover;
-	position: relative;
-	height: 710px;
 }
 
 .navbar {
@@ -112,6 +117,7 @@
 	font-weight: 300;
 	color: #c9c9c9;
 	padding-top: 40px;
+	line-height: 1.5em;
 }
 
 .header_text a {
@@ -132,12 +138,11 @@
 
 .header_text a:hover {
 	border: 2px solid #ff8b38;
-	color: #ff8b38;
+	background-color: #ff8b38;
 }
 
 .header_mail {
 	width: 360px;
-	/*height: 362px;*/
 	background-color: #fff;
 	border-radius: 5px;
 	float: right;
@@ -180,7 +185,6 @@ input {
 	margin: 0 auto;
 	border-bottom: 1px solid #d6d6d6;
 	padding-bottom: 10px;
-	padding-left: 15px;
 	margin-top: 30px;
 }
 
@@ -205,4 +209,227 @@ input {
 
 .get:hover {
 	text-decoration: underline;
+}
+
+.brand_bar {
+	box-shadow: 1px 0 10px 3px rgba(0,0,0,0.38);
+	z-index: 1;
+}
+
+.bb_text {
+	width: 365px;
+	float: left;
+}
+
+.bb_text h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 25px;
+	color: #333;
+}
+
+.bb_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 15px;
+	color: #86878b;
+	margin-bottom: 25px;
+	line-height: 1.5em;
+}
+
+.bb_social {
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	right: 0;
+}
+
+.bb_social ul {
+	list-style: none;
+	display: block;
+}
+
+.bb_social li {
+	display: block;
+	float: left;
+	margin-left: 60px;
+}
+
+.bb_social a {
+	display: block;
+	height: 46px;
+	float: left;
+}
+
+.facebook {
+	width: 24px;
+	background-image: url(../img/social.png);
+	background-position: 0 0;
+}
+
+.facebook:hover {
+	width: 24px;
+	background-image: url(../img/social.png);
+	background-position: 0 -46px;
+}
+
+.twitter {
+	width: 40px;
+	background-image: url(../img/social.png);
+	background-position: -25px 0;
+}
+
+.twitter:hover {
+	width: 40px;
+	background-image: url(../img/social.png);
+	background-position: -25px -46px;
+}
+
+.gplus {
+	width: 43px;
+	background-image: url(../img/social.png);
+	background-position: -65px 0;
+}
+
+.gplus:hover {
+	width: 43px;
+	background-image: url(../img/social.png);
+	background-position: -65px -46px;
+}
+
+.pinterest {
+	width: 44px;
+	background-image: url(../img/social.png);
+	background-position: -108px 0;
+}
+
+.pinterest:hover {
+	width: 44px;
+	background-image: url(../img/social.png);
+	background-position: -108px -46px;
+}
+
+.instagram {
+	width: 43px;
+	background-image: url(../img/social.png);
+	background-position: -151px 0;
+}
+
+.instagram:hover {
+	width: 43px;
+	background-image: url(../img/social.png);
+	background-position: -151px -46px;
+}
+
+.hz {
+	width: 53px;
+	background-image: url(../img/social.png);
+	background-position: -196px 0;
+}
+
+.hz:hover {
+	width: 53px;
+	background-image: url(../img/social.png);
+	background-position: -196px -46px;
+}
+
+.rss {
+	width: 40px;
+	background-image: url(../img/social.png);
+	background-position: -249px 0;
+}
+
+.rss:hover {
+	width: 40px;
+	background-image: url(../img/social.png);
+	background-position: -249px -46px;
+}
+
+.features_1 {
+	background-color: #f5f5f5;
+	z-index: -1;
+	padding: 140px 0;
+}
+
+.tab {
+	float: left;
+}
+
+.tab_1 {
+	width: 110px;
+	height: 110px;
+	background-color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #fff;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+	text-transform: uppercase;
+}
+
+.tab_1:hover {
+	background-color: #ff8b38;
+}
+
+.tab_2 {
+	width: 110px;
+	height: 110px;
+	background-color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #fff;
+	line-height: 110px;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: 1px solid #c7c7c7;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.tab_2:hover {
+	background-color: #ff8b38;
+}
+
+.tab_3 {
+	width: 110px;
+	height: 110px;
+	background-color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #fff;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	text-transform: uppercase;
+}
+
+.tab_3:hover {
+	background-color: #ff8b38;
+}
+
+.tab_text {
+	margin-left: 100px;
+	float: left;
+	width: 475px;
+}
+
+.tab_text h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.tab_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	color: #86878b;
 }
