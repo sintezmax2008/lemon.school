@@ -12,7 +12,8 @@
 }
 
 .inner {
-	width: 1100px;
+	width: 1120px;
+	padding: 0 10px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
@@ -98,6 +99,7 @@
 	font-weight: 400;
 	color: #fff;
 	padding-top: 273px;
+	text-transform: uppercase;
 }
 
 .header_text h1:after {
@@ -208,7 +210,12 @@ input {
 }
 
 .get:hover {
-	text-decoration: underline;
+	background-color: #ff6600;
+}
+
+.get:active {
+	box-shadow: 0 0 1px 3px rgba(0,0,0,0.38) inset;
+	font-size: 14px;
 }
 
 .brand_bar {
@@ -473,6 +480,10 @@ input {
 	margin-right: 180px;
 }
 
+.features_2_img img{
+	vertical-align: middle;
+}
+
 .features_2_text {
 	width: 465px;
 	float: right;
@@ -584,6 +595,10 @@ input {
 	float: right;
 }
 
+.features_3_img img{
+	vertical-align: middle;
+}
+
 .our_process {
 	padding: 107px 0 107px;
 }
@@ -593,6 +608,7 @@ input {
 	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .op_text h1:after {
@@ -672,6 +688,7 @@ input {
 	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .pricing_text h1:after {
@@ -755,6 +772,7 @@ input {
 	font-weight: 600;
 	color: #fff;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .pt_space, .pt_bandwith, .pt_web, .pt_customization, .pt_wordpress, .pt_email {
@@ -766,6 +784,7 @@ input {
 	background-color: #fff;
 	line-height: 40px;
 	color: #86878b;
+	text-transform: uppercase;
 }
 
 .testi {
@@ -777,6 +796,7 @@ input {
 	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .testi_text h1:after {
@@ -819,12 +839,10 @@ input {
 .tab_say::after {
 	content: "";
 	display: block;
-	width: 20px;
-	height: 20px;
-	background-color: #f5f5f5;
-	transform: rotate(45deg);
+	border: 10px solid transparent;	
+	border-top: 20px solid #f5f5f5;
 	position: absolute;
-	bottom: -10px;
+	bottom: -30px;
 	left: 25px;
 }
 
@@ -854,21 +872,6 @@ input {
 	margin-top: 25px;
 }
 
-.tab_who_foto_1 {
-	background-image: url(../img/avatar.png);
-	background-position: 0 0;
-}
-
-.tab_who_foto_2 {
-	background-image: url(../img/avatar.png);
-	background-position: -74px 0;
-}
-
-.tab_who_foto_3 {
-	background-image: url(../img/avatar.png);
-	background-position: -148px 0;
-}
-
 .section {
 	padding: 75px 0 60px;
 	background-image: url(../img/section_bg.jpg);
@@ -881,6 +884,7 @@ input {
 	font-weight: 400;
 	text-align: center;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .section_text h1:after {
@@ -931,6 +935,7 @@ input {
 	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .c_us_text h1:after {
@@ -1011,7 +1016,12 @@ input {
 }
 
 .c_us button:hover {
-	text-decoration: underline;
+	background-color: #ff6600;
+}
+
+.c_us button:active {
+	box-shadow: 0 0 1px 3px rgba(0,0,0,0.38) inset;
+	font-size: 14px;
 }
 
 footer {
@@ -1082,14 +1092,14 @@ footer span {
 }
 
 .f_pinterest {
-	width: 23px;
+	width: 24px;
 	background-image: url(../img/f_social.png);
-	background-position: -61px 0;
+	background-position: -60px 0;
 }
 
 .f_pinterest:hover {
 	background-image: url(../img/f_social.png);
-	background-position: -61px -25px;
+	background-position: -60px -25px;
 }
 
 .f_instagram {
