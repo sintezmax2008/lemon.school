@@ -57,7 +57,7 @@
 
 .navbar_nav li {
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 45px;
 	line-height: 70px;
 }
 
@@ -66,7 +66,7 @@
 	color: #c9c9c9;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: capitalize;
 }
 
@@ -98,7 +98,7 @@
 	font-size: 36px;
 	font-weight: 400;
 	color: #fff;
-	padding-top: 273px;
+	padding-top: 265px;
 	text-transform: uppercase;
 }
 
@@ -108,7 +108,7 @@
 	width: 64px;
 	height: 2px;
 	background-color: #fff;
-	margin-top: 40px;
+	margin-top: 33px;
 }
 
 .header_text p {
@@ -118,7 +118,7 @@
 	font-size: 14px;
 	font-weight: 300;
 	color: #c9c9c9;
-	padding-top: 40px;
+	padding-top: 39px;
 	line-height: 1.5em;
 }
 
@@ -126,16 +126,16 @@
 	display: block;
 	width: 135px;
 	height: 42px;
-	line-height: 38px;
+	line-height: 40px;
 	border: 2px solid #fff;
 	text-decoration: none;
 	color: #fff;
 	text-align: center;
-	margin-top: 45px;
+	margin-top: 44px;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	margin-bottom: 140px;
+	margin-bottom: 138px;
 }
 
 .header_text a:hover {
@@ -187,7 +187,18 @@ input {
 	width: 285px;
 	margin: 0 auto;
 	border-bottom: 1px solid #d6d6d6;
-	margin-top: 30px;
+}
+
+.input_name {
+	margin-top: 34px;
+}
+
+.input_mail {
+	margin-top: 40px;
+}
+
+.input_password {
+	margin-top: 52px;
 }
 
 .get {
@@ -220,7 +231,7 @@ input {
 
 .brand_bar {
 	box-shadow: 1px 0 10px 3px rgba(0,0,0,0.38);
-	padding: 25px 0;
+	padding: 16px 0 17px;
 }
 
 .bb_text {
@@ -239,7 +250,7 @@ input {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	margin-top: 15px;
+	margin-top: 3px;
 	color: #86878b;
 	line-height: 1.5em;
 }
@@ -249,6 +260,8 @@ input {
 	height: 100%;
 	display: inline-block;
  	vertical-align: middle;
+ 	margin-right: 15px;
+ 	margin-top: -5px;
 }
 
 .bb_social:before {
@@ -278,6 +291,7 @@ input {
 
 .facebook {
 	width: 24px;
+	margin-right: 5px;
 	background-image: url(../img/social.png);
 	background-position: 0 0;
 }
@@ -300,6 +314,7 @@ input {
 
 .gplus {
 	width: 43px;
+	margin-right: -15px;
 	background-image: url(../img/social.png);
 	background-position: -65px 0;
 }
@@ -322,6 +337,7 @@ input {
 
 .instagram {
 	width: 43px;
+	margin-right: -3px;
 	background-image: url(../img/social.png);
 	background-position: -152px 0;
 }
@@ -355,12 +371,13 @@ input {
 
 .features_1 {
 	background-color: #f5f5f5;
-	padding: 140px 0 115px;
-	margin-top: 10px;
+	padding: 143px 0 115px;
+	margin-top: 5px;
 }
 
 .tab {
 	float: left;
+	margin-left: -6px;
 }
 
 .tab_1 {
@@ -373,7 +390,7 @@ input {
 	color: #fff;
 	line-height: 110px;
 	text-align: center;
-	border-radius: 5px 5px 0 0;
+	border-radius: 3px 3px 0 0;
 	text-transform: uppercase;
 }
 
@@ -410,7 +427,7 @@ input {
 	color: #fff;
 	line-height: 110px;
 	text-align: center;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 3px 3px;
 	text-transform: uppercase;
 }
 
@@ -419,9 +436,10 @@ input {
 }
 
 .tab_text {
-	margin-left: 100px;
+	margin-left: 103px;
 	float: left;
 	width: 475px;
+	margin-top: 2px;
 }
 
 .tab_text h1 {
@@ -435,23 +453,23 @@ input {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	margin-bottom: 30px;
-	line-height: 1.5em;
+	margin-bottom: 25px;
+	line-height: 1.4em;
 	color: #86878b;
 }
 
 .features_1_button {
 	display: block;
 	background-color: #ff9b51;
-	height: 40px;
+	height: 44px;
 	line-height: 40px;
-	border-radius: 5px;
+	border-radius: 3px;
 	color: #fff;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 46px;
 	text-decoration: none;
 	width: 120px;
 	border-width: 0;
@@ -464,20 +482,22 @@ input {
 }
 
 .tab_img {
-	padding-top: 30px;
+	padding-top: 23px;
 	float: right;
+	margin-right: -3px;
 }
 
 .features_2 {
-	padding: 110px 0 138px;
+	padding: 110px 0 135px;
 }
 
 .features_2_img {
-	margin-top: 20px;
-	box-shadow: 0 10px 50px 5px rgba(0,0,0,0.2);
+	margin-top: 19px;
+	box-shadow: 0 20px 50px 5px rgba(0,0,0,0.2);
 	width: 453px;
 	float: left;
-	margin-right: 180px;
+	margin-right: 175px;
+	margin-left: 3px;
 }
 
 .features_2_img img{
@@ -485,8 +505,9 @@ input {
 }
 
 .features_2_text {
-	width: 465px;
+	width: 450px;
 	float: right;
+	margin-left: 10px;
 }
 
 .features_2_text h1 {
@@ -494,6 +515,7 @@ input {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
+	margin-top: -5px;
 }
 
 .features_2_text h1:after {
@@ -502,7 +524,7 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 
@@ -510,9 +532,9 @@ input {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	color: #86878b;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .title_1 span, .title_2 span {
@@ -524,12 +546,16 @@ input {
 }
 
 .title_1 p, .title_2 p {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .title_1, .title_2 {
 	position: relative;
 	margin-left: 70px;
+}
+
+.title_2 {
+	margin-top: -10px;
 }
 
 .title_1::before {
@@ -562,7 +588,8 @@ input {
 .features_3_text {
 	width: 475px;
 	float: left;
-	margin-top: 20px;
+	margin-top: 12px;
+	margin-left: 5px;
 }
 
 .features_3_text h1 {
@@ -577,22 +604,23 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .features_3_text p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.5em;
+	line-height: 1.45em;
 	color: #86878b;
-	margin-top: 30px;
+	margin-top: 22px;
 }
 
 .features_3_img {
-	box-shadow: 0 10px 50px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 20px 50px 5px rgba(0,0,0,0.2);
 	width: 453px;
 	float: right;
+	margin-right: -25px;
 }
 
 .features_3_img img{
@@ -600,7 +628,7 @@ input {
 }
 
 .our_process {
-	padding: 107px 0 107px;
+	padding: 100px 0 107px;
 }
 
 .op_text h1 {
@@ -617,7 +645,7 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin: 30px auto;
+	margin: 25px auto 20px;
 }
 
 .op_text p {
@@ -630,19 +658,22 @@ input {
 	margin-bottom: 80px;
 }
 
+.op_tab {
+	margin: 0 -17px;
+}
+
 .op_tab_1 {
 	display: inline-block;
 	width: 33.33%;
 	float: left;
 	text-align: center;
-	padding: 0 15px;
 }
 
 .op_tab h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	margin-top: 30px;
+	margin-top: 22px;
 }
 
 .op_tab p {
@@ -651,7 +682,8 @@ input {
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #86878b;
-	margin-top: 30px;
+	margin-top: 20px;
+	padding: 0 15px;
 }
 
 .design {
@@ -679,7 +711,7 @@ input {
 }
 
 .pricing {
-	padding: 107px 0 95px;
+	padding: 92px 0 95px;
 	background-color: #f5f5f5
 }
 
@@ -697,7 +729,7 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin: 30px auto;
+	margin: 25px auto;
 }
 
 .pricing_text p {
@@ -707,7 +739,11 @@ input {
 	line-height: 1.5em;
 	color: #86878b;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 75px;
+}
+
+.pricing_tab {
+	margin: 0 -25px;
 }
 
 .pricing_tab_1 {
@@ -737,8 +773,9 @@ input {
 	background-color: #333;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 48px;
+	font-size: 30px;
 	font-weight: 700;
+	padding-left: 5px;
 }
 
 .pt_price_1 span {
@@ -779,16 +816,16 @@ input {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	height: 40px;
+	height: 42px;
 	border-bottom: 1px solid #f5f5f5;
 	background-color: #fff;
-	line-height: 40px;
+	line-height: 42px;
 	color: #86878b;
 	text-transform: uppercase;
 }
 
 .testi {
-	padding: 110px 0 100px;
+	padding: 95px 0 100px;
 }
 
 .testi h1 {
@@ -805,14 +842,14 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin: 30px auto;
+	margin: 25px auto;
 }
 
 .testi_text p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.5em;
+	line-height: 1.3em;
 	color: #86878b;
 	text-align: center;
 	margin-bottom: 55px;
@@ -821,7 +858,6 @@ input {
 .testi_tab_1 {
 	width: 33.33%;
 	float: left;
-	padding-right: 120px;
 }
 
 .tab_say {
@@ -830,7 +866,7 @@ input {
 	font-weight: 400;
 	font-style: italic;
 	color: #86878b;
-	padding: 25px 20px;
+	padding: 20px 60px 30px 10px;
 	background-color: #f5f5f5;
 	border-radius: 5px;
 	position: relative;
