@@ -478,7 +478,7 @@ input {
 }
 
 .features_1_button:hover {
-	text-decoration: underline;
+	background-color: #ff6600;
 }
 
 .tab_img {
@@ -828,7 +828,7 @@ input {
 	padding: 95px 0 100px;
 }
 
-.testi h1 {
+.testi_text h1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	font-weight: 400;
@@ -852,12 +852,17 @@ input {
 	line-height: 1.3em;
 	color: #86878b;
 	text-align: center;
-	margin-bottom: 55px;
+	margin-bottom: 25px;
 }
 
 .testi_tab_1 {
 	width: 33.33%;
 	float: left;
+	padding: 30px 75px 0 20px;
+}
+
+.testi_tab:nth-child(2) {
+	/*margin-left: 40px;*/
 }
 
 .tab_say {
@@ -866,10 +871,11 @@ input {
 	font-weight: 400;
 	font-style: italic;
 	color: #86878b;
-	padding: 20px 60px 30px 10px;
 	background-color: #f5f5f5;
 	border-radius: 5px;
 	position: relative;
+	line-height: 1.3em;
+	padding: 20px 10px 23px;
 }
 
 .tab_say::after {
@@ -884,8 +890,8 @@ input {
 
 .tab_who_text {
 	float: left;
-	margin-left: 15px;
-	margin-top: 35px;
+	margin-left: 17px;
+	margin-top: 32px;
 }
 
 .tab_who h1 {
@@ -899,17 +905,20 @@ input {
 	font-size: 14px;
 	font-weight: 400;
 	color: #86878b;
+	margin-top: 2px;
+	margin-left: -2px;
 }
 
 .tab_who_foto_1, .tab_who_foto_2, .tab_who_foto_3 {
 	float: left;
 	width: 70px;
 	height: 70px;
-	margin-top: 25px;
+	margin-top: 23px;
+	margin-left: 3px;
 }
 
 .section {
-	padding: 75px 0 60px;
+	padding: 68px 0 62px;
 	background-image: url(../img/section_bg.jpg);
 	background-size: cover;
 }
@@ -929,7 +938,7 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #fff;
-	margin: 35px auto;
+	margin: 22px auto 25px;
 }
 
 .section_text p {
@@ -939,7 +948,7 @@ input {
 	line-height: 1.5em;
 	color: #c9c9c9;
 	text-align: center;
-	margin-bottom: 35px;
+	margin-bottom: 33px;
 }
 
 .section_text a {
@@ -963,7 +972,7 @@ input {
 }
 
 .c_us {
-	padding: 107px 0 80px;
+	padding: 100px 0 80px;
 }
 
 .c_us_text h1 {
@@ -980,7 +989,7 @@ input {
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
-	margin: 30px auto;
+	margin: 23px auto;
 }
 
 .c_us_text p {
@@ -990,29 +999,52 @@ input {
 	line-height: 1.5em;
 	color: #86878b;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 .block_1 {
 	width: 50%;
 	float: left;
-	padding: 0 20px;
+	padding: 0 30px 0 0;
 }
 
-.block_name, .block_mail, .block_subject {
+.block_name {
 	border-bottom: 2px solid #d6d6d6;
-	margin-top: 50px;
-	
+	margin-top: 48px;
+}
+
+.block_name input {
+	margin-left: 5px;
+}
+
+.block_mail {
+	border-bottom: 2px solid #d6d6d6;
+	margin-top: 38px;
+}
+
+.block_mail input {
+	margin-left: 5px;
+	margin-top: -3px;
+}
+
+.block_subject {
+	border-bottom: 2px solid #d6d6d6;
+	margin-top: 33px;
+}
+
+.block_subject input {
+	margin-left: 5px;
 }
 
 .block_2 {
 	width: 50%;
 	float: right;
-	padding: 0 20px;
+	padding-left: 45px;
 }
 
 .mess {
 	width: 100%;
+	height: 149px;
 	outline: none;
 	border: 1px solid #fff;
 	color: #ff8b38;
@@ -1072,7 +1104,7 @@ footer span {
 	font-size: 12px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .f_social ul {
@@ -1086,7 +1118,7 @@ footer span {
 
 .f_social li {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 22px;
 }
 
 .f_social a {
