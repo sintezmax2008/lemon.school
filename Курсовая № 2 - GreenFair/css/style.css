@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Raleway|Roboto+Slab';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700|Raleway|Roboto+Slab:400,700';
 
 * {
 	margin: 0;
@@ -171,7 +171,7 @@ nav {
 	box-sizing: border-box;
 	background-image: url(../img/h_t_bg.jpg);
 	background-size: cover;
-	background-position: 0 -130px;
+	background-position: 0 0;
 	position: relative;
 	padding-top: 273px;
 	z-index: 0;
@@ -195,7 +195,6 @@ nav {
 	font-weight: 700;
 	font-size: 72px;
 	color: #fff;
-	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 35px;
 	line-height: 72px;
@@ -206,7 +205,6 @@ nav {
 	font-weight: 700;
 	font-size: 45px;
 	color: #fff;
-	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 35px;
 	line-height: 45px;
@@ -217,7 +215,6 @@ nav {
 	font-weight: 400;
 	font-size: 20px;
 	color: #fff;
-	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 50px;
 	line-height: 20px;
@@ -237,7 +234,33 @@ nav {
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+
+.header_slider a:hover {
+	background-color: #43a906;
+}
+
+.slide_1 {
+	text-align: left;
+	display: none;
+}
+
+.slide_2 {
+	text-align: center;
+	/*display: none;*/
+}
+
+.slide_3 {
+	text-align: right;
+	display: none;
+}
+
+.slide_2 a {
 	margin: 0 auto;
+}
+
+.slide_3 a {
+	float: right;
 }
 
 .slide li {
@@ -256,7 +279,155 @@ nav {
 
 .slide {
 	display: block;
-	width: 77px;
+	text-align: center;
 	margin: 190px auto 0;
 	padding-bottom: 30px;
+}
+
+.about_us {
+	padding: 113px 0; 
+}
+
+.au_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.au_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.au_tab_main {
+	margin-top: 60px;
+	float: left;
+	width: 25%;
+	padding: 0 20px;
+}
+
+.tab_img_1, .tab_img_2, .tab_img_3, .tab_img_4 {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.tab_img_1 {
+	background-image: url(../img/about_sprite.png);
+	background-position: 0 0;
+}
+
+.tab_img_2 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -120px 0;
+}
+
+.tab_img_3 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -240px 0;
+}
+
+.tab_img_4 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -360px 0;
+}
+
+.tab_name {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #393939;
+	margin-top: 35px;
+}
+
+.tab_desc {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: #646464;
+	margin-top: 25px;
+}
+
+.au_tab_main:hover .tab_name {
+	color: #43a906;
+}
+
+.au_tab_main:hover .tab_img_1 {
+	background-image: url(../img/about_sprite.png);
+	background-position: 0 -120px;
+}
+
+.au_tab_main:hover .tab_img_2 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -120px -120px;
+}
+
+.au_tab_main:hover .tab_img_3 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -240px -120px;
+}
+
+.au_tab_main:hover .tab_img_4 {
+	background-image: url(../img/about_sprite.png);
+	background-position: -360px -120px;
+}
+
+.join {
+	background-color: #222;
+	padding: 100px 0;
+	position: relative;
+}
+
+.ju_text {
+	width: 700px;
+	display: inline-block;
+}
+
+.ju_text h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.ju_text span {
+	color: #43a906;
+}
+
+.ju_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 25px;
+}
+
+.join a {
+	display: inline-block;
+	width: 210px;
+	height: 52px;
+	background-color: #43a906;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	line-height: 52px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	float: right;
+	position: absolute;
+	top: 50%;
+	margin-top: -26px;
+	margin-left: 200px;
 }
