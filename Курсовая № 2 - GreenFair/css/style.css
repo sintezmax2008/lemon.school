@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700|Raleway|Roboto+Slab:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Roboto:400,500';
 
 * {
 	margin: 0;
@@ -430,4 +430,376 @@ nav {
 	top: 50%;
 	margin-top: -26px;
 	margin-left: 200px;
+}
+
+.join a:hover {
+	font-size: 15px;
+}
+
+.join a:active {
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;
+}
+
+.our_last_work {
+	padding: 100px 0;
+}
+
+.olw_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	color: #222;
+	text-transform: uppercase;
+}
+
+.olw_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #393939;
+	margin-top: 35px;
+	margin-bottom: 60px; 
+}
+
+.olw_nav {
+	text-align: center;
+}
+
+.olw_nav ul {
+	display: block;
+	list-style: none;
+}
+
+.olw_nav li {
+	display: inline-block;
+	height: 45px;
+	margin: 0 5px;
+}
+
+.olw_nav a {
+	display: inline-block;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	border: 1px solid #e9e9e9;
+	border-radius: 3px;
+	line-height: 45px;
+	background-color: #f6f6f6;
+	color: #726e6e;
+}
+
+.olw_nav a:hover {
+	background-color: #43a906;
+	color: #fff;
+}
+
+.olw_item {
+	margin-top: 50px;
+}
+
+
+.olw_item a {
+	display: none;
+}
+
+.olw_item a {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	line-height: 265px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.tab_1 {
+	float: left;
+}
+
+.tab_2 {
+	float: right;
+}
+
+.tab_h {
+	margin-bottom: 6px;
+}
+
+.tab_h_1 {
+	display: inline-block;
+	width: 580px;
+	height: 285px;
+	background-image: url(../img/olw_item_1.jpg);
+	background-position: 0 0;
+	margin-right: 6px;
+	position: relative; 
+}
+
+.tab_h_1:hover a {
+	display: block;
+	width: 560px;
+	height: 265px;
+	background-color: #222;
+	opacity: 0.85;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+}
+
+.tab_h_2 {
+	display: inline-block;
+	width: 285px;
+	height: 285px;
+	background-image: url(../img/olw_item_2.jpg);
+	background-position: 0 0;
+	position: relative; 
+}
+
+.tab_h_2:hover a {
+	display: block;
+	width: 265px;
+	height: 265px;
+	background-color: #222;
+	opacity: 0.85;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+}
+
+.tab_f_1 {
+	display: inline-block;
+	width: 285px;
+	height: 285px;
+	background-image: url(../img/olw_item_3.jpg);
+	background-position: 0 0;
+	margin-right: 6px;
+	position: relative; 
+}
+
+.tab_f_1:hover a {
+	display: block;
+	width: 265px;
+	height: 265px;
+	background-color: #222;
+	opacity: 0.85;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+}
+
+.tab_f_2 {
+	display: inline-block;
+	width: 580px;
+	height: 285px;
+	background-image: url(../img/olw_item_4.jpg);
+	background-position: 0 0;
+	position: relative; 
+}
+
+.tab_f_2:hover a {
+	display: block;
+	width: 560px;
+	height: 265px;
+	background-color: #222;
+	opacity: 0.85;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+}
+
+.tab_2 {
+	width: 285px;
+	height: 580px;
+	background-image: url(../img/olw_item_5.jpg);
+	background-position: 0 0;
+	position: relative; 
+}
+
+.tab_2:hover a {
+	display: block;
+	width: 265px;
+	height: 560px;
+	background-color: #222;
+	opacity: 0.85;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	line-height: 560px;
+}
+
+.our_achivement {
+	background-color: #bdbebd;
+	padding: 110px 0;
+}
+
+.oa_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.oa_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	margin-top: 35px;
+	margin-bottom: 60px; 
+}
+
+.oa_item {
+	display: block;
+	text-align: center;
+}
+
+.item {
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+
+.img_1 {
+	width: 66px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/achivement_sprite.png);
+	background-position: 0 0;
+}
+
+.img_2 {
+	width: 78px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/achivement_sprite.png);
+	background-position: -66px 0;
+}
+
+.img_3 {
+	width: 64px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/achivement_sprite.png);
+	background-position: -144px 0;
+}
+
+.img_4 {
+	width: 44px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/achivement_sprite.png);
+	background-position: -207px 0;
+}
+
+.img_5 {
+	width: 90px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/achivement_sprite.png);
+	background-position: -250px 0;
+}
+
+.numb {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 37px;
+	color: #fff;
+	position: relative;
+	margin-top: 25px;
+}
+
+.numb:after {
+	display: block;
+	content: "";
+	width: 82px;
+	height: 1px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -41px;
+}
+
+.text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 45px;
+	text-transform: uppercase;
+}
+
+.latest_event {
+	padding: 110px 0;
+}
+
+.le_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	color: #222;
+	text-transform: uppercase;
+}
+
+.le_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #393939;
+	margin-top: 35px;
+	margin-bottom: 60px; 
+}
+
+.tree_text {
+	display: inline-block;
+	width: 380px;
+	height: 294px;
+	text-align: center;
+}
+
+.tree_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #454444; 
+}
+
+.tree_text h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #6c6b6b; 
+}
+
+.tree_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #646464; 
+}
+
+.tree_1 img {
+	display:block;
+	float: left;
+	width: 380px;
+}
+
+.tree_2 .tree_text {
+	float: left;
 }
