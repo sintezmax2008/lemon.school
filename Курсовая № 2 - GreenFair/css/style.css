@@ -1003,7 +1003,7 @@ nav {
 }
 
 .last_blog {
-	padding: 110px 0 0;
+	padding: 110px 0;
 }
 
 .lb_text h1 {
@@ -1036,4 +1036,104 @@ nav {
 	border-radius: 3px;
 	overflow: hidden;
 	margin: 0 6px;
+	text-align: left;
+}
+
+.lb_title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #454444;
+	padding: 38px 20px 0;
+}
+
+.lb_desc {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #646464;
+	padding: 38px 20px 0;
+}
+
+.lb_tab_main a {
+	display: inline-block;
+	margin: 30px 0 30px 20px;
+	color: #545353;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.lb_tab_main a:hover {
+	color: #43a906;
+}
+
+.lb_admin {
+	padding: 0 20px;
+}
+
+.date, .user, .chat {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #aeadad;
+	margin-top: 20px;
+}
+
+.date:before {
+	content: "";
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-image: url(../img/admin_sprite.png);
+	background-position: 0 0;
+	margin-right: 4px;
+}
+
+.date:after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 13px;
+	background-color: #aeadad;
+	margin-left: 10px;
+	margin-right: 7px;
+}
+
+.user:before {
+	content: "";
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-image: url(../img/admin_sprite.png);
+	background-position: -13px 0;
+	margin-right: 4px;
+}
+
+.chat {
+	float: right;
+}
+
+.chat:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 13px;
+	background-image: url(../img/admin_sprite.png);
+	background-position: -26px 0;
+	margin-right: 7px;
+}
+
+.chat:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.call_out {
+	background-color: #333;
+	padding: 85px 0;
 }
