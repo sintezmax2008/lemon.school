@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Slab:400,700|Roboto:400,500';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Lato:400,700|Raleway:300,400,500,700|Roboto+Slab:400,700|Roboto:400,500';
 
 * {
 	margin: 0;
@@ -24,7 +24,7 @@
 }
 
 .header_top_inner {
-	padding: 16px 0;
+	padding: 15px 0;
 }
 
 .header_top_inner div {
@@ -32,19 +32,19 @@
 	font-weight: 500;
 	font-size: 12px;
 	color: #646464;
-	font-stretch: ultra-expanded;
+	letter-spacing: 0.02em;
 }
 
 .home {
 	float: left;
 	border-right: 1px solid #b0b5da;
 	padding-right: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .tele {
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .home:before {
@@ -77,7 +77,7 @@
 .social a {
 	display: inline-block;
 	height: 12px;
-	margin-left: 17px;
+	margin-left: 10px;
 }
 
 .facebook_h_t {
@@ -125,9 +125,9 @@
 }
 
 .logo {
-	height: 105px;
+	height: 102px;
 	float: left;
-	padding: 25px 0 38px 10px;
+	padding: 20px 0 38px 10px;
 }
 
 .logo:hover {
@@ -137,7 +137,7 @@
 nav {
 	float: right;
 	display: block;
-	height: 105px;
+	height: 102px;
 }
 
 .menu ul {
@@ -155,7 +155,7 @@ nav {
 	font-size: 14px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-	padding: 45px 15px 37px;
+	padding: 40px 17px 38px;
 	display: block;
 }
 
@@ -173,7 +173,7 @@ nav {
 	background-size: cover;
 	background-position: 0 0;
 	position: relative;
-	padding-top: 273px;
+	padding-top: 268px;
 	z-index: 0;
 }
 
@@ -196,28 +196,31 @@ nav {
 	font-size: 72px;
 	color: #fff;
 	text-transform: uppercase;
-	margin-bottom: 35px;
+	margin-bottom: 22px;
 	line-height: 72px;
+	letter-spacing: 0.025em;
 }
 
 .header_slider h2 {
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 45px;
 	color: #fff;
 	text-transform: uppercase;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	line-height: 45px;
 }
 
 .header_slider p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 50px;
 	line-height: 20px;
+	letter-spacing: 0.025em;
+
 }
 
 .header_slider a {
@@ -281,11 +284,11 @@ nav {
 	display: block;
 	text-align: center;
 	margin: 190px auto 0;
-	padding-bottom: 30px;
+	padding-bottom: 22px;
 }
 
 .about_us {
-	padding: 113px 0; 
+	padding: 100px 0; 
 }
 
 .au_text h1 {
@@ -1136,4 +1139,214 @@ nav {
 .call_out {
 	background-color: #333;
 	padding: 85px 0;
+}
+
+.co_text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.call_out a {
+	display: inline-block;
+	width: 213px;
+	height: 47px;
+	background-color: #43a906;
+	border-radius: 3px;
+	line-height: 47px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+}
+
+.client_logo {
+	padding: 80px 0;
+}
+
+.client_logo .inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.client_logo a {
+	opacity: 0.65;
+}
+
+.client_logo a:hover {
+	opacity: 1;
+}
+
+.git {
+	padding: 115px 0;
+	background-color: #eee;
+}
+
+.git_text h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	color: #222222;
+	text-transform: uppercase;
+}
+
+.git_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #646464;
+	margin-top: 35px;
+	margin-bottom: 60px; 
+}
+
+.office_info {
+	float: left;
+	width: 570px;
+	margin-right: 30px;
+}
+
+.office_info h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 22px;
+	text-align: left;
+	color: #222222;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.office_info p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	color: #646464;
+	margin-bottom: 20px;
+}
+
+.adress:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	background-image: url(../img/contact_sprite.png);
+	background-position: 0 0;
+	margin-right: 13px;
+}
+
+.tel:before {
+	content: "";
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background-image: url(../img/contact_sprite.png);
+	background-position: -15px 0;
+	margin-right: 13px;
+}
+
+.mail:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background-image: url(../img/contact_sprite.png);
+	background-position: -29px 0;
+	margin-right: 13px;
+}
+
+.office_info img {
+	margin-top: 20px;
+}
+
+.message {
+	float: right;
+	width: 570px;
+}
+
+.message h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 22px;
+	text-align: left;
+	color: #222222;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.message .name,.email, .subject,  textarea {
+	outline: none;
+	height: 50px;
+	background-color: #d4d4d4;
+	display: inline-block;
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+	color: #696969;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 570px;
+	height: 218px;
+	resize: none;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.name, .email {
+	width: 280px;
+}
+
+.name {
+	margin-right: 6px;
+}
+
+.subject {
+	width: 100%;
+}
+
+.send {
+	outline: none;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #43a906;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 3px;
+	border: none;
+}
+
+.footer {
+	background-color: #222222;
+	padding: 40px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
