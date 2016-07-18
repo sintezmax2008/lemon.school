@@ -62,18 +62,20 @@
 }
 
 .navbar_nav a {
+	display: inline-block;
+	height: 70px;
 	text-decoration: none;
 	color: #c9c9c9;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	text-transform: capitalize;
+	transition: color 2s;
 }
 
 .navbar_nav a:hover {
 	color: #ff8b38;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #ff8b38;
+	transition: color 0.5s;
 }
 
 .navbar_nav {
@@ -137,11 +139,17 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	margin-bottom: 138px;
+	transition: background-color 2s;
 }
 
 .header_text a:hover {
 	border: 2px solid #ff8b38;
 	background-color: #ff8b38;
+	transition: background-color 1s;
+}
+
+.header_text a:active {
+	font-size: 14px;
 }
 
 .header_mail {
@@ -295,21 +303,25 @@ input {
 	margin-right: 5px;
 	background-image: url(../img/social.png);
 	background-position: 0 0;
+	transition: background-position 0.5s;
 }
 
 .facebook:hover {
 	background-image: url(../img/social.png);
 	background-position: 0 -46px;
+	transition: background-position 0.5s;
 }
 
 .twitter {
 	width: 40px;
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -25px 0;
 }
 
 .twitter:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -25px -46px;
 }
 
@@ -317,11 +329,13 @@ input {
 	width: 43px;
 	margin-right: -15px;
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -65px 0;
 }
 
 .gplus:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -65px -46px;
 }
 
@@ -329,10 +343,12 @@ input {
 	width: 45px;
 	background-image: url(../img/social.png);
 	background-position: -108px 0;
+	transition: background-position 0.5s;
 }
 
 .pinterest:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -108px -46px;
 }
 
@@ -340,33 +356,39 @@ input {
 	width: 43px;
 	margin-right: -3px;
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -152px 0;
 }
 
 .instagram:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -152px -46px;
 }
 
 .hz {
 	width: 53px;
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -196px 0;
 }
 
 .hz:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -196px -46px;
 }
 
 .rss {
 	width: 40px;
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -249px 0;
 }
 
 .rss:hover {
 	background-image: url(../img/social.png);
+	transition: background-position 0.5s;
 	background-position: -249px -46px;
 }
 
